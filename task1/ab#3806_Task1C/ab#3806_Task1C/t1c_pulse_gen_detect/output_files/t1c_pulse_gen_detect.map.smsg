@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at t1c_pulse_gen_detect.v(38): always construct contains both blocking and non-blocking assignments File: C:/Astratinker/task1/ab#3806_Task1C/ab#3806_Task1C/t1c_pulse_gen_detect/t1c_pulse_gen_detect.v Line: 38

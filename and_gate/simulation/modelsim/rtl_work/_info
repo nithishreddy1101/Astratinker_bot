@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Astratinker/and_gate/simulation/modelsim
+vand_gate
+!s110 1694233184
+!i10b 1
+!s100 b=h;f35E8Q3=MFLPm<`>Z0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IoM]bkG[b?C:4VW`@Y5IKX0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1694230997
+8C:/Astratinker/and_gate/and_gate.v
+FC:/Astratinker/and_gate/and_gate.v
+!i122 0
+L0 1 8
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1694233184.000000
+!s107 C:/Astratinker/and_gate/and_gate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Astratinker/and_gate|C:/Astratinker/and_gate/and_gate.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Astratinker/and_gate
+Z5 tCvgOpt 0
+vand_gate_test_bench
+!s110 1694233185
+!i10b 1
+!s100 5>]KDb]V;J=ElS?;Ibom:0
+R1
+IWFdH=[MZ[eclEn8ONeDZ>1
+R2
+R0
+w1694232526
+8C:/Astratinker/and_gate/../and_gate_test_bench/and_gate_test_bench.v
+FC:/Astratinker/and_gate/../and_gate_test_bench/and_gate_test_bench.v
+!i122 1
+L0 2 17
+R3
+r1
+!s85 0
+31
+!s108 1694233185.000000
+!s107 C:/Astratinker/and_gate/../and_gate_test_bench/and_gate_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Astratinker/and_gate/../and_gate_test_bench|C:/Astratinker/and_gate/../and_gate_test_bench/and_gate_test_bench.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+C:/Astratinker/and_gate/../and_gate_test_bench
+R5

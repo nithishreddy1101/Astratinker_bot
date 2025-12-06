@@ -1,0 +1,31 @@
+# Reading pref.tcl
+# do frequency_scaling_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Astratinker/learn/frequency_scaling {C:/Astratinker/learn/frequency_scaling/frequency_scaling.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:17:04 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Astratinker/learn/frequency_scaling" C:/Astratinker/learn/frequency_scaling/frequency_scaling.v 
+# -- Compiling module frequency_scaling
+# 
+# Top level modules:
+# 	frequency_scaling
+# End time: 19:17:04 on Sep 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.frequency_scaling
+# vsim work.frequency_scaling 
+# Start time: 19:17:12 on Sep 22,2023
+# Loading work.frequency_scaling
+add wave  \
+sim:/frequency_scaling/clk_50M
+# End time: 19:17:57 on Sep 22,2023, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0

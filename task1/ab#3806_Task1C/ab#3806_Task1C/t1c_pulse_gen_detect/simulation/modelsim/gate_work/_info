@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Astratinker/task1/t1c_pulse_gen_detect/t1c_pulse_gen_detect/simulation/modelsim
+vhard_block
+Z1 !s110 1697218824
+!i10b 1
+!s100 kDgn:CB:NA]Z9K>]RbZ^53
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9]m[e6hQe0F;UVNAS7CBL3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1697218726
+Z5 8t1c_pulse_gen_detect.vo
+Z6 Ft1c_pulse_gen_detect.vo
+!i122 0
+L0 2714 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1697218824.000000
+Z9 !s107 t1c_pulse_gen_detect.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|t1c_pulse_gen_detect.vo|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+.
+Z13 tCvgOpt 0
+vt1c_pulse_gen_detect
+R1
+!i10b 1
+!s100 oSWn7Y_mDZ41KmEA=ci8g2
+R2
+I07Weco1kE;0mUn8m7M^S11
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 2681
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vtb
+!s110 1697218825
+!i10b 1
+!s100 2RQ1Im[@H_DRRfH<MN?1E1
+R2
+I9EDSOiHS3Vk;eHQfnB8bh1
+R3
+R0
+w1696435185
+8C:/Astratinker/task1/t1c_pulse_gen_detect/t1c_pulse_gen_detect/simulation/modelsim/tb.v
+FC:/Astratinker/task1/t1c_pulse_gen_detect/t1c_pulse_gen_detect/simulation/modelsim/tb.v
+!i122 1
+L0 3 120
+R7
+r1
+!s85 0
+31
+!s108 1697218825.000000
+!s107 C:/Astratinker/task1/t1c_pulse_gen_detect/t1c_pulse_gen_detect/simulation/modelsim/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Astratinker/task1/t1c_pulse_gen_detect/t1c_pulse_gen_detect/simulation/modelsim|C:/Astratinker/task1/t1c_pulse_gen_detect/t1c_pulse_gen_detect/simulation/modelsim/tb.v|
+!i113 1
+R11
+!s92 -vlog01compat -work work +incdir+C:/Astratinker/task1/t1c_pulse_gen_detect/t1c_pulse_gen_detect/simulation/modelsim
+R13

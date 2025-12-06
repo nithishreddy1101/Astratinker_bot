@@ -1,0 +1,48 @@
+# Reading pref.tcl
+# do two_way_switch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Astratinker/learn/two\ way\ switch {C:/Astratinker/learn/two way switch/two_way_switch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:50:43 on Sep 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Astratinker/learn/two way switch" C:/Astratinker/learn/two way switch/two_way_switch.v 
+# -- Compiling module TWS
+# 
+# Top level modules:
+# 	TWS
+# End time: 13:50:43 on Sep 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Astratinker/learn/two\ way\ switch {C:/Astratinker/learn/two way switch/tb_TWS;.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:50:43 on Sep 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Astratinker/learn/two way switch" C:/Astratinker/learn/two way switch/tb_TWS;.v 
+# -- Compiling module tb_TWS
+# 
+# Top level modules:
+# 	tb_TWS
+# End time: 13:50:43 on Sep 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"   tb_TWS;
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_TWS 
+# Start time: 13:50:44 on Sep 10,2023
+# Loading work.tb_TWS
+# Loading work.TWS
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 13:52:41 on Sep 10,2023, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 0

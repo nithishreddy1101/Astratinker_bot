@@ -1,0 +1,8 @@
+
+State Machine - |uart_rx|state
+Name state.ST3 state.ST2 state.ST1 state.IDLE state.ST4 
+state.IDLE 0 0 0 0 0 
+state.ST1 0 0 1 1 0 
+state.ST2 0 1 0 1 0 
+state.ST3 1 0 0 1 0 
+state.ST4 0 0 0 1 1 
